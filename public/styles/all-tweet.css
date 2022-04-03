@@ -1,0 +1,83 @@
+.tweet {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  margin: 20px -10px 20px -10px;
+  border: 3px solid;
+}
+.all-tweet-content {
+  border: none;
+  border-bottom: 3px solid #545149;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.all-tweet-header {
+  display: flex;
+  justify-content: space-between;
+}
+.all-tweet-header-left {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.all-tweet-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px 15px 30px;
+}
+.logo {
+  font-size: 15px;
+}
+.logo i {
+  margin-left: 7px;
+  color: #4056a1;
+}
+.all-tweet-header-left > a {
+  font-size: large;
+  font-weight: 300;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.all-tweet-header > a {
+  font-size: large;
+  font-weight: 600;
+  color: lightsteelblue;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+time {
+  font-size: small;
+  font-weight: 600;
+}
+.all-tweet-content > p {
+  margin-left: 20px;
+}
+
+.all-tweet-header-left > img {
+  width: 30px;
+  height: 30px;
+}
+
+#btnScrollToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #e62739;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  display: none;
+}
+
+.logo i:hover {
+  color: rgb(204, 204, 61);
+}
+
+#tweets-container .tweet:hover {
+  box-shadow: 5px 5px #b0c4de;
+}

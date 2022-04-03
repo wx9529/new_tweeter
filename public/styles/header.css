@@ -1,0 +1,17 @@
+#header {
+  height: 400px;
+  width: 60%;
+  background-color: #00a8a8;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  border-radius: 20px;
+}
+
+#author {
+  font-family: "Bungee";
+  color: #4056a1;
+}
